@@ -1,0 +1,43 @@
+/* HowItWorksSection.css */
+.how-it-works {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .step-card {
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px;
+    flex-basis: 30%;
+  }
+  
+  .step-number {
+    font-size: 24px;
+    color: #e74c3c;
+  }
+  
+  .step-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .step-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .rating {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

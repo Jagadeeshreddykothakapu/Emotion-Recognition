@@ -1,38 +1,61 @@
-.App {
+/* src/App.css */
+.package-container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.package-cards {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.package-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+}
+
+.package-card h3 {
+  color: #333;
+}
+
+.price {
+  font-size: 2em;
+  color: #007bff;
+}
+
+.package-card button {
+  background-color: #007bff;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.package-card ul {
+  list-style: none;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.package-card li {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+/* Add additional styling for highlighted package if needed */
+.highlighted {
+  border-color: #f80;
+}
+
+.get-started-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
 }
